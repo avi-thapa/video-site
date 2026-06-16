@@ -16,7 +16,7 @@ export default function Footer() {
               <div className="footer-logo">
                 <a href="/">
                   <img
-                    src="https://video.digitalconnection.ae/wp-content/uploads/2026/04/white-logo.png"
+                    src="https://videocms.digitalconnection.aewp-content/uploads/2026/04/white-logo.png"
                     alt="footer-logo"
                   />
                 </a>

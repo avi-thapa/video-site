@@ -14,7 +14,7 @@ export default function ContactForm() {
 
     try {
       const res = await fetch(
-        "https://video.digitalconnection.ae/wp-json/contact-form-7/v1/contact-forms/5/feedback",
+        "https://videocms.digitalconnection.ae/wp-json/contact-form-7/v1/contact-forms/5/feedback",
         {
           method: "POST",
           body: formData,

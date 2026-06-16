@@ -33,7 +33,7 @@ export default function Header() {
               <div className="logo-part dark">
                 <a href="/">
                   <img
-                    src="https://video.digitalconnection.ae/wp-content/uploads/2026/04/logo.png"
+                    src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/logo.png"
                     alt="Digital Connection Logo"
                     width="100%"
                   />
@@ -43,7 +43,7 @@ export default function Header() {
               <div className="logo-part full">
                 <a href="/">
                   <img
-                    src="https://video.digitalconnection.ae/wp-content/uploads/2026/04/white-logo.png"
+                    src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/white-logo.png"
                     alt="Digital Connection Logo"
                     width="100%"
                   />

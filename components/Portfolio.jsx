@@ -94,18 +94,18 @@ const reels = [
 ];
 
 const photography = [
-   "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
-  "https://video.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+   "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/asma-1.png",
+  "https://videocms.digitalconnection.ae/wp-content/uploads/2024/06/izidoro-1.png",
 ];
 
 function getYoutubeId(url) {
