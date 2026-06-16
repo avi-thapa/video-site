@@ -24,7 +24,6 @@ const sections = [
     videos: [
       "https://www.youtube.com/embed/8yzdIbIz4cI",
       "https://www.youtube.com/embed/Jo2hdfQhjQw",
-      "https://www.youtube.com/embed/07DIt5Q4N2I",
       "https://www.youtube.com/embed/xsMBZ37jMwc",
       "https://www.youtube.com/embed/1UylN2YjwMY",
       "https://www.youtube.com/embed/tTb-Qiyg9tY",
@@ -36,16 +35,14 @@ const sections = [
     videos: [
       "https://www.youtube.com/embed/bFBM1KGpMWQ",
       "https://www.youtube.com/embed/4S5o8XBe_EQ",
-      "https://www.youtube.com/embed/y1jYmF66Nn8",
+      "https://www.youtube.com/embed/HduaKosUnwM",
       "https://www.youtube.com/embed/fOs1-HrAJhc",
       "https://www.youtube.com/embed/QdHuQnQcV0c",
-      "https://www.youtube.com/embed/ui9_QQ7VF00",
       "https://www.youtube.com/embed/6Apyi2lithI",
       "https://www.youtube.com/embed/h6Uxtczn5sQ",
-      "https://www.youtube.com/embed/fgAtqGC7QMs",
-      "https://www.youtube.com/embed/xSl8CMROQoI",
       "https://www.youtube.com/embed/csR2atu54OE",
-      "https://www.youtube.com/embed/HduaKosUnwM",
+      
+      "https://www.youtube.com/embed/y1jYmF66Nn8",
     ],
   },
   {
@@ -57,7 +54,6 @@ const sections = [
       "https://www.youtube.com/embed/CggvWt2uugw",
       "https://www.youtube.com/embed/SCE0RYLeN6o",
       "https://www.youtube.com/embed/lJKidxY4nII",
-      "https://www.youtube.com/embed/rzhoVfv9bgw",
     ],
   },
   {
