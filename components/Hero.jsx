@@ -2,8 +2,39 @@
 
 import { useState } from "react";
 import "../app/hero.css";
+
 export default function Hero() {
   const [formOpen, setFormOpen] = useState(false);
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch(
+        "https://videocms.digitalconnection.ae/wp-json/contact-form-7/v1/contact-forms/5/feedback",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      const data = await res.json();
+
+      if (data.status === "mail_sent") {
+        setStatus("Message sent successfully.");
+        form.reset();
+      } else {
+        setStatus(data.message || "Something went wrong.");
+      }
+    } catch {
+      setStatus("Failed to send message.");
+    }
+  };
 
   return (
     <section className="sec_banner">
@@ -20,7 +51,7 @@ export default function Hero() {
       <video
         className="d-block d-md-none"
         id="myVideoMobile"
-        src="/video/banner1.mp4"
+        src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/banner-mobile-new-1.mp4"
         autoPlay
         playsInline
         loop
@@ -39,28 +70,67 @@ export default function Hero() {
             id="banner-toggle"
             className="main_btn_new"
             type="button"
-            onClick={() => setFormOpen(!formOpen)}
+            onClick={() => setFormOpen(true)}
           >
             Let’s Connect <i className="fas fa-arrow-right"></i>
           </button>
 
-          <div className={`banner-form ${formOpen ? "active" : ""}`}>
-            <button
-              className="abs-close"
-              type="button"
+          {formOpen && (
+            <div
+              className="banner-overlay"
               onClick={() => setFormOpen(false)}
             >
-              ×
-            </button>
+              <div
+                className="banner-form active"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <form onSubmit={handleSubmit} className="hero-contact-form">
+                  <input
+                    name="your-name"
+                    type="text"
+                    placeholder="Name"
+                    required
+                  />
 
-            <form>
-              <input className="wpcf7-form-control" type="text" placeholder="Name" />
-              <input className="wpcf7-form-control" type="email" placeholder="Email" />
-              <input className="wpcf7-form-control" type="text" placeholder="Phone" />
-              <textarea className="wpcf7-form-control" placeholder="Message" rows="4"></textarea>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
+                  <div className="hero-form-row">
+                    <input
+                      name="your-email"
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+
+                    <input
+                      name="your-phone"
+                      type="text"
+                      placeholder="Phone"
+                    />
+                  </div>
+
+                  <textarea
+                    name="your-message"
+                    placeholder="Message"
+                    rows="2"
+                    required
+                  />
+
+                  <label className="hero-privacy">
+                    <input name="privacy" type="checkbox" required />
+                    <span>
+                      The user consents to the use of the data. More information:
+                      Privacy Policy.
+                    </span>
+                  </label>
+
+                  <button type="submit" className="hero-submit">
+                    SEND
+                  </button>
+
+                  {status && <p className="form-status">{status}</p>}
+                </form>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

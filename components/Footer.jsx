@@ -35,16 +35,16 @@ export default function Footer() {
   </a>
 
   <ul className={`sub-menu ${openMenu ? "active" : ""}`}>
-    <li><a href="/consultancy/">Consultancy</a></li>
-    <li><a href="/digital-marketing/">Digital Marketing</a></li>
-    <li><a href="/web/">Web</a></li>
-    <li><a href="/design/">Design</a></li>
+    <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
+    <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
+    <li><a href="https://digitalconnection.ae//web/">Web</a></li>
+    <li><a href="https://digitalconnection.ae//design/">Design</a></li>
     <li><a href="#">Content Marketing</a></li>
   </ul>
 </li>
 
-                      <li><a href="/about/">About Us</a></li>
-                      <li><a href="/blog/">Blog</a></li>
+                      <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
+                      <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
                     </ul>
                   </div>
 

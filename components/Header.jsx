@@ -33,7 +33,8 @@ export default function Header() {
               <div className="logo-part dark">
                 <a href="/">
                   <img
-                    src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/logo.png"
+                    // src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/logo.png"
+                    src="https://videocms.digitalconnection.ae/wp-content/uploads/2026/04/white-logo.png"
                     alt="Digital Connection Logo"
                     width="100%"
                   />
@@ -57,18 +58,18 @@ export default function Header() {
                   <a href="#">Services</a>
 
                   <ul className="sub-menu">
-                    <li><a href="/consultancy/">Consultancy</a></li>
-                    <li><a href="/digital-marketing/">Digital Marketing</a></li>
-                    <li><a href="/web/">Web</a></li>
-                    <li><a href="/design/">Design</a></li>
+                    <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
+                    <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
+                    <li><a href="https://digitalconnection.ae//web/">Web</a></li>
+                    <li><a href="https://digitalconnection.ae//design/">Design</a></li>
                     <li><a href="#">Content Marketing</a></li>
                   </ul>
                 </li>
 
-                <li><a href="/about/">About Us</a></li>
-                <li><a href="/clients/">Clients</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/contact/">Contact Us</a></li>
+                <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
+                <li><a href="https://digitalconnection.ae//clients/">Clients</a></li>
+                <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
+                <li><a href="https://digitalconnection.ae//contact/">Contact Us</a></li>
               </ul>
             </div>
 
@@ -98,24 +99,24 @@ export default function Header() {
 
         <div className="overlay-content">
           <ul>
-            <li><a href="/projects/">Projects</a></li>
+         
 
             <li className="menu-has-child">
               <a href="#">Services</a>
 
               <ul className="sub-menu">
-                <li><a href="/consultancy/">Consultancy</a></li>
-                <li><a href="/digital-marketing/">Digital Marketing</a></li>
-                <li><a href="/web/">Web</a></li>
-                <li><a href="/design/">Design</a></li>
+                <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
+                <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
+                <li><a href="https://digitalconnection.ae//web/">Web</a></li>
+                <li><a href="https://digitalconnection.ae//design/">Design</a></li>
                 <li><a href="#">Content Marketing</a></li>
               </ul>
             </li>
 
-            <li><a href="/about/">About Us</a></li>
-            <li><a href="/clients/">Clients</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
+            <li><a href="https://digitalconnection.ae//clients/">Clients</a></li>
+            <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
+            <li><a href="https://digitalconnection.ae//contact/">Contact Us</a></li>
           </ul>
         </div>
       </div>

@@ -142,6 +142,8 @@ function LazyVideo({ src, reel = false }) {
 }
 
 function Section({ title, videos, reel = false }) {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className={`container-fluid portfolio-slider ${reel ? "reels-new" : ""}`}>
       <div className="sec_title">
@@ -152,10 +154,27 @@ function Section({ title, videos, reel = false }) {
       </div>
 
       <div className={`portfolio-grid ${reel ? "reel-grid" : ""}`}>
-        {videos.map((video) => (
-          <LazyVideo key={video} src={video} reel={reel} />
+        {videos.map((video, index) => (
+          <div
+            key={video}
+            className={index >= 3 && !showMore ? "mobile-hidden-video" : ""}
+          >
+            <LazyVideo src={video} reel={reel} />
+          </div>
         ))}
       </div>
+
+      {videos.length > 3 && (
+        <div className="portfolio-view-more-wrap">
+          <button
+            type="button"
+            className="portfolio-view-more"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? "View Less" : "View More"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
