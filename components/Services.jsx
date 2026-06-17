@@ -8,27 +8,27 @@ const services = [
     title: "Indoor Video",
     heading: (
       <>
-        Indoor <br /> Video
+        Vídeo <br /> indoor
       </>
     ),
     image: "https://videocms.digitalconnection.ae/wp-content/uploads/2024/04/indoor.png",
-    text: "Lights, camera, Digital Connection... Action! With high-quality equipment and a dedicated team, we create indoor videos for any format. Our passion for perfection goes beyond filming; in post-production, we take care of every detail of color, image, and sound. We guarantee a flawless final result, ready to capture your audience's attention.",
+    text: "Luzes, câmaras, Digital Connection... Ação! Com equipamentos de alta qualidade e uma equipa dedicada, criamos vídeos indoor para qualquer formato. A nossa paixão pela perfeição vai além das filmagens; na pós-produção, cuidamos de cada detalhe de cor, imagem e som. Garantimos um resultado final impecável, pronto para capturar a atenção do seu público.",
   },
   {
     title: "Outdoor Video",
     heading: (
       <>
-        Outdoor <br /> Video
+        VÍDEOS  <br /> OUTDOOR
       </>
     ),
     image: "https://videocms.digitalconnection.ae/wp-content/uploads/2024/04/outdoor.png",
-    text: "With Digital Connection, capture the essence of your business outdoors! We use top-notch equipment to film in any setting, always seeking the perfect angle. Our experience and professionalism ensure a captivating narrative. After filming, our team takes care of editing and post-production, ensuring a high-quality final video, ready to impress.",
+    text: "Com a Digital Connection, capte a essência do seu negócio ao ar livre! Usamos equipamentos de topo para filmar em qualquer cenário, procurando sempre o ângulo perfeito. A nossa experiência e profissionalismo garantem uma narrativa envolvente. Depois das filmagens, a nossa equipa cuida da edição e pós-produção, assegurando um vídeo final de alta qualidade, pronto para impressionar.",
   },
   {
     title: "PHOTOGRAPHY",
-    heading: "PHOTOGRAPHY",
+    heading: "FOTOGRAFIA",
     image: "https://videocms.digitalconnection.ae/wp-content/uploads/2024/04/fotographia.png",
-    text: "Our photographer turns the mood board into visual magic. Whether for packaging, fashion, food, beverages, real estate, or events, Digital Connection combines expertise, professionalism, and passion in every session. We guarantee stunning photos that highlight the best of each project",
+    text: "O nosso fotógrafo transforma o moodboard em magia visual. Seja para packaging, moda, comida, bebidas, imobiliário ou eventos, a Digital Connection combina expertise, profissionalismo e paixão em todas as sessões. Garantimos fotos impressionantes que destacam o melhor de cada projeto.",
   },
   {
     title: "MOTION DESIGN",
@@ -38,17 +38,17 @@ const services = [
       </>
     ),
     image: "https://videocms.digitalconnection.ae/wp-content/uploads/2024/04/motion.png",
-    text: "When we combine design and cinema, Motion Design emerges. The Digital Connection team offers high-quality Motion Design that incorporates the art of storytelling in all productions. It's the ideal solution to explain ideas clearly, visually appealing, and extremely dynamic.",
+    text: "Quando unimos design e cinema, surge o Motion Design. A equipa Digital Connection oferece um Motion Design de alta qualidade que incorpora a arte do storytelling em todas as produções. É a solução ideal para explicar ideias de maneira clara, visualmente atraente e extremamente dinâmica.",
   },
   {
     title: "AERIAL IMAGES",
     heading: (
       <>
-        AERIAL <br /> IMAGES
+        IMAGENS   <br /> AÉREAS
       </>
     ),
     image: "https://videocms.digitalconnection.ae/wp-content/uploads/2024/04/drone.png",
-    text: "At Digital Connection, we believe the sky is the limit when it comes to good work. That's why we offer a drone operated by an experienced pilot for any aerial recording you desire. Every flight and every image is special to us, and we prepare everything with the best equipment to ensure incredible captures, regardless of altitude.",
+    text: "Na Digital Connection, quando se fala em bom trabalho, acreditamos que o céu é o limite. Por isso, oferecemos um drone operado por um piloto experiente para qualquer gravação aérea desejada. Cada voo e cada imagem são especiais para nós, e preparamos tudo com os melhores equipamentos para garantir capturas incríveis, independente da altitude.",
   },
 ];
 
@@ -70,7 +70,7 @@ function ServiceItem({ service }) {
         <p>{service.text}</p>
 
         <a href="#contact-form" className="main_btn_new outline">
-          Let’s Connect <i className="fas fa-arrow-right"></i>
+          Conecte-se <i className="fas fa-arrow-right"></i>
         </a>
       </div>
     </div>
@@ -83,7 +83,7 @@ export default function Services() {
       <section className="sec_services d-none d-md-block">
         <div className="container-fluid">
           <div className="sec_title mb-5">
-            <h4>SERVICES</h4>
+            <h4>SERVIÇOS</h4>
           </div>
 
           <div className="service-wrapper d-flex">

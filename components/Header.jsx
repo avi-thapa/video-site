@@ -55,21 +55,21 @@ export default function Header() {
             <div className="col right-menu d-none d-md-flex">
               <ul>
                 <li className="menu-has-child">
-                  <a href="#">Services</a>
+                  <a href="#">Serviços</a>
 
                   <ul className="sub-menu">
-                    <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
-                    <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
-                    <li><a href="https://digitalconnection.ae//web/">Web</a></li>
-                    <li><a href="https://digitalconnection.ae//design/">Design</a></li>
-                    <li><a href="#">Content Marketing</a></li>
+                     <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
+                <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
+                <li><a href="https://digitalconnection.pt/web/">Web</a></li>
+                <li><a href="https://digitalconnection.pt/design/">Design</a></li>
+                <li><a href="#">Content Marketing</a></li>
                   </ul>
                 </li>
 
-                <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
-                <li><a href="https://digitalconnection.ae//clients/">Clients</a></li>
-                <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
-                <li><a href="https://digitalconnection.ae//contact/">Contact Us</a></li>
+                 <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
+            <li><a href="https://digitalconnection.pt/clientes/">Clientes</a></li>
+            <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
+            <li><a href="https://digitalconnection.pt/contact/">Contactos</a></li>
               </ul>
             </div>
 
@@ -102,21 +102,21 @@ export default function Header() {
          
 
             <li className="menu-has-child">
-              <a href="#">Services</a>
+              <a href="#">Serviços</a>
 
               <ul className="sub-menu">
-                <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
-                <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
-                <li><a href="https://digitalconnection.ae//web/">Web</a></li>
-                <li><a href="https://digitalconnection.ae//design/">Design</a></li>
+                <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
+                <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
+                <li><a href="https://digitalconnection.pt/web/">Web</a></li>
+                <li><a href="https://digitalconnection.pt/design/">Design</a></li>
                 <li><a href="#">Content Marketing</a></li>
               </ul>
             </li>
 
-            <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
-            <li><a href="https://digitalconnection.ae//clients/">Clients</a></li>
-            <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
-            <li><a href="https://digitalconnection.ae//contact/">Contact Us</a></li>
+            <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
+            <li><a href="https://digitalconnection.pt/clientes/">Clientes</a></li>
+            <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
+            <li><a href="https://digitalconnection.pt/contact/">Contactos</a></li>
           </ul>
         </div>
       </div>

@@ -1,38 +1,44 @@
 "use client";
 
 import { useState } from "react";
+import { t } from "../lib/translations";
 import "../app/hero.css";
 
+const lang = "pt";
 export default function Hero() {
   const [formOpen, setFormOpen] = useState(false);
   const [status, setStatus] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus("A enviar...");
 
-    const form = e.currentTarget;
-    const formData = new FormData(form);
+  const form = e.currentTarget;
+  const formData = new FormData(form);
 
-    try {
-      const res = await fetch(
-        "https://videocms.digitalconnection.ae/wp-json/contact-form-7/v1/contact-forms/5/feedback",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+  formData.append("_wpcf7", "215");
+  formData.append("_wpcf7_unit_tag", "nextjs-banner");
+  formData.append("_wpcf7_container_post", "0");
 
-      const data = await res.json();
+  try {
+    const res = await fetch(
+      "https://www.videocms.digitalconnection.pt/wp-json/contact-form-7/v1/contact-forms/215/feedback",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    const data = await res.json();
 
       if (data.status === "mail_sent") {
-        setStatus("Message sent successfully.");
+        setStatus("Obrigado pela sua mensagem.");
         form.reset();
       } else {
-        setStatus(data.message || "Something went wrong.");
+        setStatus(data.message || "Ocorreu um erro ao tentar enviar a sua mensagem. Por favor, tente de novo mais tarde.");
       }
     } catch {
-      setStatus("Failed to send message.");
+      setStatus("Ocorreu um erro ao tentar enviar a sua mensagem. Por favor, tente de novo mais tarde.");
     }
   };
 
@@ -63,7 +69,7 @@ export default function Hero() {
       </div>
 
       <div className="banner-content">
-        <h1>GIVE ACTION TO YOUR BRAND</h1>
+        <h1>{t[lang].heroTitle}</h1>
 
         <div className="something-new">
           <button
@@ -72,7 +78,7 @@ export default function Hero() {
             type="button"
             onClick={() => setFormOpen(true)}
           >
-            Let’s Connect <i className="fas fa-arrow-right"></i>
+            {t[lang].connect} <i className="fas fa-arrow-right"></i>
           </button>
 
           {formOpen && (
@@ -85,45 +91,52 @@ export default function Hero() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <form onSubmit={handleSubmit} className="hero-contact-form">
-                  <input
-                    name="your-name"
-                    type="text"
-                    placeholder="Name"
-                    required
-                  />
+                <input
+  name="Nome"
+  type="text"
+  placeholder="Nome"
+  required
+/>
 
                   <div className="hero-form-row">
-                    <input
-                      name="your-email"
-                      type="email"
-                      placeholder="Email"
-                      required
-                    />
+                  <input
+  name="Email"
+  type="email"
+  placeholder="Email"
+  required
+/>
 
-                    <input
-                      name="your-phone"
-                      type="text"
-                      placeholder="Phone"
-                    />
+
+                  <input
+  name="Telefone"
+  type="text"
+  placeholder="Telefone"
+  required
+/>
+
                   </div>
 
-                  <textarea
-                    name="your-message"
-                    placeholder="Message"
-                    rows="2"
-                    required
-                  />
+                 <textarea
+  name="Mensagem"
+  placeholder="Mensagem"
+  rows="2"
+/>
+
 
                   <label className="hero-privacy">
-                    <input name="privacy" type="checkbox" required />
+                  <input
+  name="acceptance-478"
+  type="checkbox"
+  value="1"
+  required
+/>
                     <span>
-                      The user consents to the use of the data. More information:
-                      Privacy Policy.
+                O utilizador dá o seu consentimento para a utilização dos dados. Mais informações: <a href="https://digitalconnection.pt/politica-privacidade/" target="_blank">Política de privacidade.</a>
                     </span>
                   </label>
 
                   <button type="submit" className="hero-submit">
-                    SEND
+                    Enviar
                   </button>
 
                   {status && <p className="form-status">{status}</p>}

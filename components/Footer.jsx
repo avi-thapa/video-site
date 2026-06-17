@@ -31,20 +31,20 @@ export default function Footer() {
                      
 <li className="menu-has-child">
   <a onClick={() => setOpenMenu(!openMenu)}>
-    Services
+    Serviços
   </a>
 
   <ul className={`sub-menu ${openMenu ? "active" : ""}`}>
-    <li><a href="https://digitalconnection.ae//consultancy/">Consultancy</a></li>
-    <li><a href="https://digitalconnection.ae//digital-marketing/">Digital Marketing</a></li>
-    <li><a href="https://digitalconnection.ae//web/">Web</a></li>
-    <li><a href="https://digitalconnection.ae//design/">Design</a></li>
+    <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
+    <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
+    <li><a href="https://digitalconnection.pt/web/">Web</a></li>
+    <li><a href="https://digitalconnection.pt/design/ ">Design</a></li>
     <li><a href="#">Content Marketing</a></li>
   </ul>
 </li>
 
-                      <li><a href="https://digitalconnection.ae//about/">About Us</a></li>
-                      <li><a href="https://digitalconnection.ae//blog/">Blog</a></li>
+                      <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
+                      <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
                     </ul>
                   </div>
 
@@ -140,9 +140,9 @@ export default function Footer() {
                 <a href="https://digitalconnection.pt/" target="_blank">
                   digital connection
                 </a>{" "}
-                | All rights reserved |
-                <a href="https://digitalconnection.ae/privacy-policy/">
-                  {" "}Privacy policy
+                | Todos os direitos reservados |
+                <a href="https://digitalconnection.pt/politica-privacidade/" target="_blank">
+                  {" "}Política de Privacidade
                 </a>
               </p>
             </div>

@@ -20,7 +20,7 @@ const sections = [
     ],
   },
   {
-    title: "Lifestyle and Sports",
+    title: "Lifestyle e Desporto",
     videos: [
       "https://www.youtube.com/embed/8yzdIbIz4cI",
       "https://www.youtube.com/embed/Jo2hdfQhjQw",
@@ -31,7 +31,7 @@ const sections = [
     ],
   },
   {
-    title: "Institutional Videos",
+    title: "VIDEOS INSTITUCIONAIS",
     videos: [
       "https://www.youtube.com/embed/bFBM1KGpMWQ",
       "https://www.youtube.com/embed/4S5o8XBe_EQ",
@@ -46,7 +46,7 @@ const sections = [
     ],
   },
   {
-    title: "Events",
+    title: "EVENTOS",
     videos: [
       "https://www.youtube.com/embed/jKiCfsFQzWw",
       "https://www.youtube.com/embed/2hi4zHvYPbQ",
@@ -57,7 +57,7 @@ const sections = [
     ],
   },
   {
-    title: "Real Estate",
+    title: "REAL ESTATE",
     videos: [
       "https://www.youtube.com/embed/7RDIi7sxn0s",
       "https://www.youtube.com/embed/XEpBfL4yabk",
@@ -149,7 +149,7 @@ function Section({ title, videos, reel = false }) {
       <div className="sec_title">
         <h4>{title}</h4>
         <a href="#contact-form" className="main_btn_new outline">
-          Let’s Connect <i className="fas fa-arrow-right"></i>
+          Conecte-se <i className="fas fa-arrow-right"></i>
         </a>
       </div>
 
@@ -237,7 +237,7 @@ export default function Portfolio({ photographyImages = [] }) {
         <Section title="REELS" videos={reels} reel />
       </section>
 
-      <PhotographySection photos={photos} />
+      {/* <PhotographySection photos={photos} /> */}
     </>
   );
 }
