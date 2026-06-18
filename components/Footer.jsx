@@ -35,16 +35,16 @@ export default function Footer() {
   </a>
 
   <ul className={`sub-menu ${openMenu ? "active" : ""}`}>
-    <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
-    <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
-    <li><a href="https://digitalconnection.pt/web/">Web</a></li>
-    <li><a href="https://digitalconnection.pt/design/ ">Design</a></li>
+    <li><a href="https://digitalconnection.pt/consultoria/" target="_blank">Consultoria</a></li>
+    <li><a href="https://digitalconnection.pt/marketing-digital/" target="_blank">Marketing Digital</a></li>
+    <li><a href="https://digitalconnection.pt/web/" target="_blank">Web</a></li>
+    <li><a href="https://digitalconnection.pt/design/ " target="_blank">Design</a></li>
     <li><a href="#">Content Marketing</a></li>
   </ul>
 </li>
 
-                      <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
-                      <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
+                      <li><a href="https://digitalconnection.pt/sobre-nos/" target="_blank">Sobre Nós</a></li>
+                      <li><a href="https://digitalconnection.pt/blog/" target="_blank">Blog</a></li>
                     </ul>
                   </div>
 
@@ -70,18 +70,7 @@ export default function Footer() {
 
                   <div className="col-md-3 mt-4 mt-md-0">
                     <ul>
-                      <li>
-                        <a href="mailto:joao@digitalconnection.ae">
-                          joao@digitalconnection.ae
-                        </a>
-                      </li>
-                      <li>
-                        <a href="tel:+971529335805">
-                          +971 529 335 805
-                        </a>
-                      </li>
-
-                      <hr />
+                    
 
                       <li>
                         <a href="mailto:goncalo@digitalconnection.ae">
@@ -89,8 +78,13 @@ export default function Footer() {
                         </a>
                       </li>
                       <li>
-                        <a href="tel:+971558501583">
-                          +971 55 850 1583
+                        <a href="tel:+351 913 988 058">
+                          +351 913 988 058
+                        </a>
+                         </li>
+                          <li>
+                         <a href="tel:+351 927 277 523">
+                          +351 927 277 523
                         </a>
                       </li>
                     </ul>
@@ -149,6 +143,15 @@ export default function Footer() {
           </div>
         </div>
       </section>
+
+      <a
+  href="https://wa.me/351913988058"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="whatsapp-float"
+>
+  <i className="fab fa-whatsapp"></i>
+</a>
     </>
   );
 }

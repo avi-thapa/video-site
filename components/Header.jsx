@@ -58,18 +58,18 @@ export default function Header() {
                   <a href="#">Serviços</a>
 
                   <ul className="sub-menu">
-                     <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
-                <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
-                <li><a href="https://digitalconnection.pt/web/">Web</a></li>
-                <li><a href="https://digitalconnection.pt/design/">Design</a></li>
+                     <li><a href="https://digitalconnection.pt/consultoria/" target="_blank">Consultoria</a></li>
+                <li><a href="https://digitalconnection.pt/marketing-digital/" target="_blank">Marketing Digital</a></li>
+                <li><a href="https://digitalconnection.pt/web/" target="_blank">Web</a></li>
+                <li><a href="https://digitalconnection.pt/design/" target="_blank">Design</a></li>
                 <li><a href="#">Content Marketing</a></li>
                   </ul>
                 </li>
 
-                 <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
-            <li><a href="https://digitalconnection.pt/clientes/">Clientes</a></li>
-            <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
-            <li><a href="https://digitalconnection.pt/contact/">Contactos</a></li>
+                 <li><a href="https://digitalconnection.pt/sobre-nos/" target="_blank">Sobre Nós</a></li>
+            <li><a href="https://digitalconnection.pt/clientes/" target="_blank">Clientes</a></li>
+            <li><a href="https://digitalconnection.pt/blog/" target="_blank">Blog</a></li>
+            <li><a href="https://digitalconnection.pt/contact/" target="_blank">Contactos</a></li>
               </ul>
             </div>
 
@@ -105,18 +105,18 @@ export default function Header() {
               <a href="#">Serviços</a>
 
               <ul className="sub-menu">
-                <li><a href="https://digitalconnection.pt/consultoria/">Consultoria</a></li>
-                <li><a href="https://digitalconnection.pt/marketing-digital/">Marketing Digital</a></li>
-                <li><a href="https://digitalconnection.pt/web/">Web</a></li>
-                <li><a href="https://digitalconnection.pt/design/">Design</a></li>
+                <li><a href="https://digitalconnection.pt/consultoria/" target="_blank">Consultoria</a></li>
+                <li><a href="https://digitalconnection.pt/marketing-digital/" target="_blank">Marketing Digital</a></li>
+                <li><a href="https://digitalconnection.pt/web/" target="_blank">Web</a></li>
+                <li><a href="https://digitalconnection.pt/design/" target="_blank">Design</a></li>
                 <li><a href="#">Content Marketing</a></li>
               </ul>
             </li>
 
-            <li><a href="https://digitalconnection.pt/sobre-nos/">Sobre Nós</a></li>
-            <li><a href="https://digitalconnection.pt/clientes/">Clientes</a></li>
-            <li><a href="https://digitalconnection.pt/blog/">Blog</a></li>
-            <li><a href="https://digitalconnection.pt/contact/">Contactos</a></li>
+            <li><a href="https://digitalconnection.pt/sobre-nos/" target="_blank">Sobre Nós</a></li>
+            <li><a href="https://digitalconnection.pt/clientes/" target="_blank">Clientes</a></li>
+            <li><a href="https://digitalconnection.pt/blog/" target="_blank">Blog</a></li>
+            <li><a href="https://digitalconnection.pt/contact/" target="_blank">Contactos</a></li>
           </ul>
         </div>
       </div>

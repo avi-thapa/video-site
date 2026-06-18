@@ -10,7 +10,7 @@
   z-index: 99;
   top: 0;
   right: 0;
-  background-color: #6B1FF5;
+    background-color: var(--secondary-color);
   overflow-x: hidden;
   transition: 0.5s;
   z-index: 999999;
@@ -70,16 +70,16 @@
 }
 
 .mobile-menu .menu-has-child > a::after {
-  position: absolute;
-  right: -28px;
-  top: -19px;
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 500;
-  content: "\f107";
-  margin-left: 8px;
-  margin-top: 0px;
-  font-size: 21px;
-  color: #ffffff;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin-left: -10px;
+  position: relative;
+  top: -3px;
 }
 
 .mobile-menu .menu-has-child > a {
