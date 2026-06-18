@@ -72,6 +72,17 @@ const sections = [
       "https://www.youtube.com/embed/3aqZ9ikGf10",
     ],
   },
+  {
+    title: "AI GENERATED",
+    videos: [
+      "https://www.youtube.com/embed/Md8jO4yL_eU",
+      "https://www.youtube.com/embed/t9_Pn3xns-0",
+      "https://www.youtube.com/embed/q4zdxB0KItE",
+      "https://www.youtube.com/embed/C2bh01XtQ0o",
+      "https://www.youtube.com/embed/BKQDGUtfez8",
+
+    ],
+  },
 ];
 
 const reels = [
@@ -171,7 +182,7 @@ function Section({ title, videos, reel = false }) {
             className="portfolio-view-more"
             onClick={() => setShowMore(!showMore)}
           >
-            {showMore ? "View Less" : "View More"}
+            {showMore ? "Ver menos" : "Ver mais"}
           </button>
         </div>
       )}
